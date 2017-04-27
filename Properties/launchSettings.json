@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:53698/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "SQLDB_PASSWORD": "Newuser@123",
+        "SQLDB_SERVER": "127.0.0.1",
+        "SQLDB_USER": "sa",
+        "SQLDB_DATABASE": "MVCPersonDB",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SQLDB_PORT": "51488"
+      }
+    },
+    "PersonEx": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:53699"
+    }
+  }
+}
